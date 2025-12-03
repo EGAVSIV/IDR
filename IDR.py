@@ -3,8 +3,8 @@ import swisseph as swe
 import datetime as dt
 import pandas as pd
 
-EPHE_PATH = os.path.join(os.path.dirname(__file__), "ephe")
-swe.set_ephe_path(EPHE_PATH)
+#EPHE_PATH = os.path.join(os.path.dirname(__file__), "ephe")
+#swe.set_ephe_path(EPHE_PATH)
 
 
 
