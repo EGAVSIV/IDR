@@ -1,7 +1,6 @@
 streamlit
+pyswisseph
 pandas
 swisseph
 numpy
 pytz
-pyswisseph
-
