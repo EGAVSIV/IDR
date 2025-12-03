@@ -15,8 +15,8 @@ swe.set_sid_mode(swe.SIDM_LAHIRI)
 #EPHE_PATH = os.path.join(os.path.dirname(__file__), "ephe")
 #swe.set_ephe_path(EPHE_PATH)
 
-LAT = 28.6139
-LON = 77.2090
+LAT = 19.07598
+LON = 72.87766
 FLAGS = swe.FLG_SIDEREAL if hasattr(swe, "FLG_SIDEREAL") else 0
 
 START = (9, 15)
