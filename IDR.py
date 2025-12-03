@@ -17,7 +17,8 @@ swe.set_sid_mode(swe.SIDM_LAHIRI)
 
 LAT = 19.07598
 LON = 72.87766
-FLAGS = swe.FLG_SIDEREAL if hasattr(swe, "FLG_SIDEREAL") else 0
+FLAGS = swe.FLG_SWIEPH | swe.FLG_SIDEREAL
+
 
 START = (9, 15)
 END   = (15, 30)
@@ -90,8 +91,9 @@ def jd_from_ist(d):
                       d_utc.hour + d_utc.minute/60)
 
 def lon(jd, planet):
-    pos, _ = swe.calc_ut(jd, planet)
+    pos, _ = swe.calc_ut(jd, planet, FLAGS)
     return pos[0] % 360
+
 
 def get_nak_pada(l):
     i = int(l // NAK_SIZE)
