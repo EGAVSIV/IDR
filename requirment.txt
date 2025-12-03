@@ -3,4 +3,5 @@ pandas
 swisseph
 numpy
 pytz
+pyswisseph
 
