@@ -1,6 +1,6 @@
-streamlit
 pyswisseph
-pandas
 swisseph
+streamlit
+pandas
 numpy
 pytz
