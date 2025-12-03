@@ -185,7 +185,8 @@ body {background-color: #111;}
 </style>
 """, unsafe_allow_html=True)
 
-st.title("🪐 Astro Market Scanner (Web Mode)")
+st.title("INTRADAY REVERSAL TIME
+CREATED BY RAO SAAB")
 
 # Date selection
 col1, col2, col3 = st.columns(3)
